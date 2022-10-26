@@ -1,0 +1,42 @@
+Etapa -1
+
+// esse comando no cmd é utilizado após criar uma pasta assim que criada
+// esse comando irá localizar a pasta desejavel e assim dando o próximo
+// passo
+
+cd C:\Users\1090482111029\Documents\Python\Nova pasta
+
+
+Etapa -2
+
+// A execução desse comando cria o diretório de destino (criando qualquer
+// diretório pai que ainda não exista) e coloca um arquivo pyvenv.cfg nele
+// com uma chave home apontando para a instalação do Python a partir da qual
+// o comando foi executado (um nome comum para o diretório de destino é .venv).
+
+python -m venv env
+
+Etapa -3
+
+// Esse comando é um do tipo arquivo DOS Batch onde a extensão
+// é considerado um arquivo Script
+
+env\Scripts\activate.bat
+
+Etapa -4
+
+// Usado esse comando vai instalar todos os pacotes para a utilização
+
+pip install pymysql
+
+Etapa -5
+
+// Agora crie um arquivo em txt e escreva print("Hello World")
+// assim que finalizado vai em Arquivo-->Salvar como-->Nome-->(Inscreva qualquer nome).py
+// py no nome é para fazer o arquivo text em script em python
+
+Etapa -6
+
+// Executar o script
+
+(nome escolhido pelo usuario).py
